@@ -168,7 +168,7 @@
     "immutable": "^4.0.0-rc.12",
     "isomorphic-fetch": "^2.2.1",
     "jsonwebtoken": "^8.4.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.12",
     "material-ui": "^0.20.2",
     "mockdate": "^2.0.2",
     "morgan": "^1.9.0",
@@ -214,6 +214,12 @@
     "styled-components": "^3.4.9",
     "svgo": "^1.0.4",
     "validatorjs": "^3.15.1",
-    "whatwg-fetch": "^3.0.0"
-  }
+    "whatwg-fetch": "^3.0.0",
+    "snyk": "^1.193.3"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
