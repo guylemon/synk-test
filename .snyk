@@ -38,3 +38,10 @@ patch:
         patched: '2019-07-18T11:46:17.124Z'
     - regenerator > regenerator-preset > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         patched: '2019-07-18T11:46:17.124Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - flow-typed > @octokit/rest > https-proxy-agent:
+        patched: '2019-10-04T03:03:38.193Z'
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T03:03:38.193Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T03:03:38.193Z'
