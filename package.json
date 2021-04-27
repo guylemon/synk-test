@@ -198,7 +198,7 @@
     "react-tiny-virtual-list": "^2.1.4",
     "react-transition-group": "^2.5.0",
     "recompose": "^0.30.0",
-    "redis": "^2.8.0",
+    "redis": "^3.1.1",
     "redis-server": "^1.2.2",
     "redux": "^4.0.1",
     "redux-api-middleware": "^1.0.3",
